@@ -1,0 +1,70 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  font-family: "Roboto", sans-serif;
+}
+
+.container .phone-title {
+  color: #333;
+  text-align: center;
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.container .phones {
+  width: 1140px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+
+
+.container .phones .card {
+  height: 400px;
+  width: 250px;
+  cursor: pointer;
+  margin: 25px 17px;
+}
+
+.container .phones .card img {
+  width: 100%;
+}
+
+.container .phones .card .card-title {
+  text-align: center;
+  display: block;
+  color: #ff7619;
+  font-weight: 500;
+  font-size: 17px;
+  text-decoration: none;
+  margin: 15px;
+}
+
+.container .phones .card .card-title:hover {
+  text-decoration: underline;
+}
+
+.container .phones .card .card-price {
+  font-size: 23px;
+  color: #3a3a44;
+  padding-left: 25px;
+}
+
+.container .phones .card span {
+  display: block;
+  text-align: end;
+}
+
+.container .phones .card span .fa-solid {
+  background-color: #ff7619;
+  padding: 15px;
+  font-size: 22px;
+  color: #fff;
+  border-radius: 7px;
+}
